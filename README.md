@@ -8,7 +8,7 @@
 
 This repository contains a Colab notebook and a Streamlit app that let users upload images, generate captions using BLIP, and then produce creative stories using the Google Gemini model. The project also supports exporting the generated story as PDF and MP3 audio (gTTS), and provides a simple interactive UI for experiments.
 
-The project was developed during the Interactive AI StoryTeller Bootcamp and matches the Bootcamp submission requirements (notebook, slides, and short screen recording). See Bootcamp guidelines for submission instructions. fileciteturn0file0
+The project was developed during the Interactive AI StoryTeller Bootcamp and matches the Bootcamp submission requirements (notebook, slides, and short screen recording). See Bootcamp guidelines for submission instructions.
 
 ---
 
