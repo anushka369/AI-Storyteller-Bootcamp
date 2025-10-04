@@ -1,6 +1,6 @@
 # Interactive AI StoryTeller
 
-**One‑line:** An end‑to‑end Colab + Streamlit project that generates multi‑image, multi‑chapter stories by combining image captioning (BLIP), generative text (Google Gemini), and export options (PDF + MP3).
+An end‑to‑end Google Colab + Streamlit project that generates multi‑image, multi‑chapter stories by combining image captioning (BLIP), generative text (Google Gemini), and export options (PDF + MP3).
 
 ---
 
