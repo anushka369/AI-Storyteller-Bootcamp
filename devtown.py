@@ -9,8 +9,7 @@ Original file is located at
 ## DAY-1
 """
 
-# Commented out IPython magic to ensure Python compatibility.
-# %env GEMINI_API_KEY = AIzaSyAweiDVuI67uF0hfBY4xxdYkmGY__tvWfk
+%env GEMINI_API_KEY = YOUR_GEMINI_API_KEY
 
 !pip install -q transformers pillow google-generativeai timm
 
@@ -245,7 +244,7 @@ for label,options in voices.items():
 
 # Authenticate ngrok if you want to access the app publicly
 from pyngrok import ngrok
-ngrok.set_auth_token("33V1Aa6UNbZVN6OMwirvWPqyJ8O_2fMSGQ66RJaL7Cq47BjBc")
+ngrok.set_auth_token("YOUR_NGROK_AUTH_TOKEN")
 
 # Run the streamlit application
 !streamlit run app_streamlit_story.py -- server port 8501 &>/content/log.txt &
@@ -269,8 +268,8 @@ print(f"Streamlit App URL: {public_url}")
 # import torch
 # 
 # # Authentication
-# NGROK_AUTH_TOKEN = "33V1Aa6UNbZVN6OMwirvWPqyJ8O_2fMSGQ66RJaL7Cq47BjBc"
-# BACKGROUND_IMAGE_URL = "https://i.postimg.cc/CLPsX9yB/CODE.png"
+# NGROK_AUTH_TOKEN = "YOUR_NGROK_AUTH_TOKEN"
+# BACKGROUND_IMAGE_URL = "YOUR_BACKGROUND_IMAGE_URL"
 
 # Streamlit Page Setup/Styling
 
